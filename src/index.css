@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding:  0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.black {
+  background-color: red;
+  padding:0;
+}
+
+.dataPage{
+ width: 100%;
+ display: flex;
+ 
+ 
+  
+ 
+}
+
+.secdiv{
+  width: 100%;
+  
+}
+.navbar{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2),
+  0 6px 12px 0 rgba(0,0,0,.2);
+ 
+}
+
+.title{
+  font-family: 'Playfair Display', serif;
+font-family: 'Roboto Slab', serif;
+}
+.cardPage{
+  width: 100%;
+ 
+  padding: 1rem;
+  border-radius: 1rem;
+ box-shadow: 0 2px 4px 0 rgba(0,0,0,.2),
+             0 6px 12px 0 rgba(0,0,0,.2);
+}
+
+.dataPage p{
+  font-family: 'Playfair Display', serif;
+  padding: 0 !important;
+  margin:5px;
+}
+.secdiv{
+  display: flex;
+  justify-content:space-between;
+
+}
+
+.secdiv div{
+  display: grid;
+  width: 29%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2),
+             0 6px 12px 0 rgba(0,0,0,.2);
+  margin: 0;
+  padding: 0;
+ 
+}
+.secdiv div h3{
+  margin: 0;
+  padding: 0;
+ font-family: 'Roboto', sans-serif;
+ font-weight: bold;
+ margin-top: 13px;
+
+}
+.secdiv p{
+  font-family: 'Roboto', sans-serif;
+  align-items: center;
+  padding: 0;
+
+
+}
+
+.btnIcon{
+  color:blue;
+  border:none; 
+  background-color: white;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  border-bottom: 1px solid blue;
+ 
+}
+
+.cardTitle{
+  font-family: 'Roboto', sans-serif;
+}
+
+.imgSrc{
+  object-fit: cover;
+}
+
+.btnDiv{
+  display: flex;
+  
+  justify-content: center;
+}
+.btnDiv button{
+  padding: 5px 8px;
+  margin: 2px;
+  background-color: cadetblue;
+  border-radius: 15px;
+  border: none;
+  color: antiquewhite;
+  transform: scale(0.9);
+  
+}
+
+.btnDiv button:hover{
+  transition: .4s ease-in-out;
+ background-color: coral;
+ color: rgb(178, 182, 178);
+ transform: scale(1);
+}
